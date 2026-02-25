@@ -9,7 +9,7 @@ exit 0
 
 else
 
-echo "X Test failed! Expected 'SEXPECTED' but got 'SOUTPUT'"
+echo "X Test failed! Expected '$EXPECTED' but got '$OUTPUT'"
 
 exit 1
 

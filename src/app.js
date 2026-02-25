@@ -3,7 +3,3 @@ function hi(name) {
 }
 
 module.exports = hi;
-
-if (require.main === module) {
-    console.log(hi("World"));
-}
